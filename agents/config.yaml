@@ -1,0 +1,11 @@
+alerting:
+  #slack_webhook: "https://hooks.slack.com/services/xxx/yyy/zzz"
+  email_recipients: ["security@company.com"]
+  
+#scanning:
+#  docker_images: ["nginx:latest", "python:3.11"]
+#  code_paths: ["./", "./agents/"]
+  
+dashboard:
+  port: 8501
+  refresh_rate: 15
